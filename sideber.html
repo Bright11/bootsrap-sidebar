@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Simple Sidebar - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="Sidebar.css">
+         <script src="canva_chart.js"></script>
+    </head>
+    <body>
+     <div class="container-fluid">
+       
+        <div class="controlbtn">
+            <button type="button" id="top" class="btn btn-primary">Top</button>
+        <button type="button" id="bringsidebarbtn" class="btn btn-primary">Bring Sidebar</button>
+         <button type="button" id="hide" class="btn btn-primary">Hide Sidebar</button>
+         <button type="button" id="show" class="btn btn-primary">Show Sidebar</button>
+
+        </div>
+        <div class="my-row row">
+<div class="col-md-2 mysidebar mysidebardesign" id="sidebar">
+<ul class="">
+    <button type="button" class="btn ">
+    <a href=""><img src="img/admin.png" class="img-fluid imgsidebar" id="adminimg"></a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Home</a>
+</button>
+<button type="button" class="btn "><a href="">About us</a></button>
+<button type="button" class="btn ">
+    <a href="">Our services</a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Contact us</a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Servies 2</a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Blog</a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Products</a>
+</button>
+<button type="button" class="btn ">
+    <a href="">Category</a>
+</button>
+
+<button type="button" class="btn">
+    <a href="">Event</a>
+</button>
+</ul>
+</div>
+<div class="col-md-10 my-main-content">
+    <div class="welcomnote">
+        Welcome to our admin dashborad
+    </div>
+    <div class="row mb-5 mt-5">
+
+        <div class="col-md-3 first_section daily">
+            <div class="itemholder">
+           
+           <p>Daily Total</p>
+       </div>
+        </div>
+        <div class="col-md-3 first_section">
+             <div class="itemholder2">
+           
+           <p>Weekly Total</p>
+       </div>
+        </div>
+        <div class="col-md-3 first_section">
+             <div class="itemholder3">
+           
+           <p>Monthly Total</p>
+       </div>
+        </div>
+        <div class="col-md-3 first_section">
+             <div class="itemholder4">
+            <p>Yearly Amonth</p>
+           </div>
+            </div>
+
+    </div>
+<div class="row">
+<div class="col-md-4 contentrows">
+    <div
+id="myChart1" style="width:100%; max-width:600px; height:200px;">
+</div>
+</div>
+<div class="col-md-4 contentrows">
+   <div> <canvas id="myCharts" style="width:100%;max-width:600px;height:200px;"></canvas></div>
+</div>
+<div class="col-md-4 contentrows">
+     <div id="myChart3" style="width:100%; max-width:600px; height:200px;"></div>
+</div>
+
+</div>
+
+</div>
+<style type="text/css">
+    .container-fluid{
+        
+    }
+</style>
+
+        </div>
+     </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+        <script src="jquery.js"></script>
+        <script src="mycustomjs.js"></script>
+        <script src="chart.js"></script>
+         <script src="myloadchart.js"></script>
+         
+    </body>
+</html>

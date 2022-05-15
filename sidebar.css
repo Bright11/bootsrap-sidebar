@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fff;
+}
+#sidebar{
+    background-color: blue;
+   
+}
+
+.mysidebardesign button{
+    margin-bottom: 5px;
+    width: 100%;
+}
+#sidebar button{
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#sidebar button:hover{
+    border: 0;
+    color: white;
+}
+#sidebar button a{
+    text-decoration: none;
+    color: white;
+}
+#sidebar button a .imgsidebar{
+    height: 100px;
+    padding-top: 0px;
+    border-radius: 50px;
+}
+#sidebar button a .imgsidebartop{
+     height: 60px;
+     position: relative;
+     bottom: 15px;
+}
+.welcomnote{
+    background-color: #0000FF;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.contentrows{
+    font-weight: bolder;
+    font-size: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.first_section{
+       box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset,
+       10px 10px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.controlbtn{
+    margin-bottom: 10px;
+}
+.first_section{
+    max-height: 150px;
+    min-height: 150px;
+    text-align: center;
+}
+.itemholder{
+  background-image: url('img/download.jpg');
+  object-fit: cover;
+   min-height: 150px;
+   text-align: center;
+}
+.itemholder2{
+  background-image: url('img/images.jpg');
+  object-fit: cover;
+   min-height: 150px;
+   text-align: center;
+}
+.itemholder3{
+  background-image: url('img/images 3.jpg');
+  object-fit: cover;
+   min-height: 150px;
+   text-align: center;
+}
+.itemholder4{
+  background-image: url('img/images4.jpg');
+  object-fit: cover;
+   min-height: 150px;
+   text-align: center;
+}
+.itemholder,
+.itemholder2,
+.itemholder3,
+.itemholder4
+p{
+   padding-top: 60px;
+   text-shadow: 4px 5px 2px rgba(206,89,55,0.6);
+   font-size: 25px;
+   font-weight: bolder;
+   color: white;
+}
+.itemholder3 p{
+   padding-top: 10px;
+   text-shadow: 4px 5px 2px rgba(206,89,55,0.6);
+   font-size: 25px;
+   font-weight: bolder;
+   color: black;
+}
